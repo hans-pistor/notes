@@ -1,0 +1,12 @@
+baseURL = "http://notes.hanspistor.dev/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-book"
+
+[params]
+BookToC = false
+BookTheme = "auto"
+BookSection = "*"
+
+[markup.goldmark.renderer]
+unsafe = true

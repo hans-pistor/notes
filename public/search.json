@@ -1,0 +1,1 @@
+[{"categories":null,"content":"This is the home of the blog\npublic class Greeter { public static void main(String[] args) { System.out.println(\"Hello world!\"); } } ","description":"","title":"Java","uri":"/java/"},{"categories":null,"content":"Oh no what happened\n","description":"","title":"One Bad Night","uri":"/bad-night/"}]
