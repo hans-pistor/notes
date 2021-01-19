@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-book"
 
+[taxonomies]
+tags = "tags"
+
 [params]
 BookToC = false
 BookTheme = "auto"

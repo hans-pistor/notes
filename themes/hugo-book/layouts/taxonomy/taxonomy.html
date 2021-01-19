@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ range sort .Paginator.Pages }}
+  {{ range (.Paginate (.Pages.ByParam "date")).Pages }}
   <article class="markdown book-post">
     <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
